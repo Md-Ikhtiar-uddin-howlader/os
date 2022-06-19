@@ -1,8 +1,7 @@
 # Tutorial to deploy a complete Apache, PHP,MYSQL and PHPMYADMIN service on windows
 
 <p align="center">
-![IIUM Logo](/images/IIUM_LOGO.png)
-
+![IIUM LOGO](./images/IIUM_LOGO.png)
 
 ## CSCI 3300 Section 02 OPERATING SYSTEMS
  
