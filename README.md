@@ -6,12 +6,36 @@
 
 ## CSCI 3300 Section 02 OPERATING SYSTEMS
  
-### PREPARED BY:
+**PREPARED BY: GROUP-3**
 
-| Matric No | Name                      |
-| 1834619   | Md Ikhtiar Uddin Howlader |
-| 1836247   | Rasel Ahmed               |
-| 1835197   | Mohammad Sazidur Rahman   |
+
+<table>
+  <tr>
+   <td><strong>NAME</strong>
+   </td>
+   <td><strong>MATRIC NO.</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>MD IKHTIAR UDDIN HOWLADER (G. LEADER)</strong>
+   </td>
+   <td><strong>1834619</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>RASEL AHMED</strong>
+   </td>
+   <td><strong>1836247</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Mohammad Sazidur Rahman</strong>
+   </td>
+   <td><strong>1835197</strong>
+   </td>
+  </tr>
+</table>
+
 
 </p>
 
