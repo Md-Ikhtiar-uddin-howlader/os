@@ -1,6 +1,6 @@
 # Tutorial to deploy a complete Apache, PHP,MYSQL and PHPMYADMIN service on windows
 
-<p align="center">
+
 ![IIUM LOGO](./images/IIUM_LOGO.png)
 
 ## CSCI 3300 Section 02 OPERATING SYSTEMS
@@ -35,8 +35,6 @@
   </tr>
 </table>
 
-
-</p>
 
 ### 1. Introduction:
 An operating system is a piece of software that connects the user to the computer hardware. After being loaded into a computer by a boot software, it is the programme that administers all of the other application programmes in the computer. Users may interact with the OS using a command line interface (CLI) or a graphical user interface (GUI), which is often done with a keyboard, mouse, or touchscreen. An operating system is very useful for computer software and software development. Without an operating system, each programme would need its own user interface as well as the considerable code necessary to manage all of the underlying computer's low-level tasks, such as disc storage, network connections, and so on.
