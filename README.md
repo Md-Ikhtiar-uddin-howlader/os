@@ -14,10 +14,11 @@ Mohammad Sazidur Rahman	1835197
  
 ### PREPARED BY:
 
- | Matric No | Name
- | 1834619   | Md Ikhtiar Uddin Howlader
- | 1836247   | Rasel Ahmed 
- | 1835197   | Mohammad Sazidur Rahman
+| Matric No | Name                      |
+| 1834619   | Md Ikhtiar Uddin Howlader |
+| 1836247   | Rasel Ahmed               |
+| 1835197   | Mohammad Sazidur Rahman   |
+
 </p>
 
 ### 1. Introduction:
