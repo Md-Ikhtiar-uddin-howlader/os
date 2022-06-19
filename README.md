@@ -6,7 +6,7 @@
 
 ## CSCI 3300 Section 02 OPERATING SYSTEMS
  
-**PREPARED BY: GROUP-3**
+**PREPARED BY: GROUP-10**
 
 
 <table>
