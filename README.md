@@ -5,12 +5,6 @@
 
 
 ## CSCI 3300 Section 02 OPERATING SYSTEMS
-
-**PREPARED BY:**
-Name 	Matric No
-Md Ikhtiar Uddin Howlader 	1834619
-Rasel Ahmed	1836247
-Mohammad Sazidur Rahman	1835197
  
 ### PREPARED BY:
 
