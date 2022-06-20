@@ -113,7 +113,7 @@ So now we can run it into our local machine by:
 docker run --name some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=ikhtiar -d mysql
 ```
  
-'Explaination of the options for the command docker run'. 
+Let's explain the options for the command docker run.  
 - The option --name allows us to assign a specific name for our running container.    
 
 - The option -e is used to pass a value to the container environment variable MYSQL_ROOT_PASSWORD. This variable is requested by the image to run properly and it will be assigned to the root password of MySQL. 
@@ -136,42 +136,20 @@ docker ps -a
  
 ### 7. Obtaing and Running phpMyAdmin on docker:
 
-Once the container running MySql server is working, the next step is configuring another container with phpMyAdmin.
-A quick search in docker hub by phpMyAdmin will show us a list of phpMyAdmin related images.
-
-- To download the latest stable version of the image, we can open a terminal and type the following:
-
-```
-docker pull phpmyadmin/phpmyadmin:latest
-```
-After downloading the image, we need to run the container making sure that the container connects with the other container running mysql. 
-In order to do so we type the following command:
-
-```
-docker run --name my-own-phpmyadmin -d --link my-own-mysql:db -p 8081:80 
-phpmyadmin/phpmyadmin
-```
-'Explaination of the options for the command docker run'. 
-
-- The option --name allows us to assign a specific name for our running container.  
-- The option -d means that docker will run the container in the background in “detached” mode. 
-- The option --link provides access to another container running in the host. In our case the container is the one created in the previous section, called my-own-mysql and the resource accessed is the MySQL db.
-- The mapping between the host ports and the container ports is done using the option -p followed by the port number of the host (8081) that will be redirected to the port number of the container (80)
-
-Finally, the docker run command needs the image used to create the container, so we will use the phpmyadmin image just pulled from docker hub.
-
-If everything went well we could see the running container by typing the following command:
-```
-docker ps -a
-```
-The terminal should displays something like this:
-
-![terminal](./images/terminal.png)
-
 ### 8. Access phpMyAdmin:
 
+You only need to open your favourite browser and type the following url: http://localhost:8081/ so your instance of phpMyAdmin will show up. To access, type root as username and the password you established in the step one when running the mysql container (if you followed the tutorial the password is ikhtiar -d).
+
+![Access](./images/Access.png)
+
+After that you have to put your password.
+
+![Login](./images/Access_2.png)
 
 
+
+
+hh
 
 
 
