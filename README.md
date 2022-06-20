@@ -148,6 +148,9 @@ After that you have to put your password.
 
 After you log in, this is your phpmyadmin page. 
 
+![Access](./images/Page.png)
+
+
 
 
 
