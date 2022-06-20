@@ -92,12 +92,24 @@ This is how  docker-compose.yml should look like.Let’s test it out.
 
 ![apache](./images/apache.png)
 
+Now, If we open Docekr desktop, The container should be up and runnig.
+
+![myphp](./images/myphp.png)
 
 
 ### 6. Deploy MySQL on docker:
 
+ In order to run MySQL on docker we need to make sure that the Docker is running on your desktop.
+ After that we can proceed to obtain a MySQL docker image by typing the following: 
+ 
+```
+docker pull mysql:8.0.1
 
+```
 
+ 
+ 
+ 
 ### 7. Obtaing and Running phpMyAdmin on docker:
 
 ### 8. Access phpMyAdmin:
