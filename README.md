@@ -73,7 +73,52 @@ docker --version
 ![php](./images/php.png)
 
 
-## 4. Deploy Apache on docker:
+### 5. Deploy Apache on docker:
+
+- Container: The container name is simply a name for our PHP container that we choose at random. 
+  For example, php-apache is a container name.
+
+- PHP image: which is the version of PHP Apache we wish to use. We are using the Docker hub to get image: php:8.0-apache in this example.
+
+- Volume: will create a working src directory for our code or source files in our current working directory. That file would have to be in that directory if we want to run a PHP script.
+
+Such As:volumes:- ./php/src:/var/www/html/
+
+- Ports:  Port numbers are important. This specifies the ports from which the script will run. It will map the port on your local computer to an Apache server port.
+
+Consider the following scenario:ports: - 8000:80
+
+This is how  docker-compose.yml should look like.Let’s test it out.
+
+![apache](./images/apache.png)
+
+
+
+### 6. Deploy MySQL on docker:
+
+
+
+### 7. Obtaing and Running phpMyAdmin on docker:
+
+### 8. Access phpMyAdmin:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
