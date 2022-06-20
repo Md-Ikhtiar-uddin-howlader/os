@@ -144,7 +144,7 @@ You only need to open your favourite browser and type the following url: http://
 
 After that you have to put your password.
 
-![Login](./images/login.png)
+![Access](./images/login.png)
 
 
 
