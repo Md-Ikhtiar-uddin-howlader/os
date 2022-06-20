@@ -62,3 +62,24 @@ docker --version
 
 
 **This indicates that the Docker installed successfully.**
+
+
+### 4. Deploy PHP on docker:
+
+1. First we need to create an index.php file in project directory,./php/src.
+2. Let's run any PHP code and it will be run from directory we specified in the volume of our docker-compose./php/src.
+3.After refresh por browser with [https://localhost:8000/](https://localhost:8000/), result should be visible.
+
+(./images/php.png)
+
+
+
+
+
+
+
+
+
+
+
+
