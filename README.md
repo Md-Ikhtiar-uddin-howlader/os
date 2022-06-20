@@ -64,40 +64,43 @@ docker --version
 **This indicates that the Docker installed successfully.**
 
 
-### 4. Deploy PHP on docker:
+### 4. Php with Apache on docker:
 
-1. First we need to create an index.php file in project directory,./php/src.
-2. Let's run any PHP code and it will be run from directory we specified in the volume of our docker-compose./php/src.
-3. After refresh por browser with ([https://localhost:8000/](https://localhost:8000/)), result should be visible.
+At first we have to create Dockerfile. Inside Dockerfile we have to write this code:
+FROM php:7.2-apache
+COPY src/ /var/www/html/
 
-![php](./images/php.png)
+Where src/ is the directory containing all your PHP code. Then, run the commands to build and run the Docker image:
+
+```
+docker build -t my-php-app .
+
+```
+
+```
+docker run -d --name my-running-app my-php-app
+
+```
+**Here Php with Apache Dockerfile and commands pictures**
+
+![Dockerfile&&commands](./images/php_apache.png)
 
 
-### 5. Deploy Apache on docker:
+![Dockerfile&&commands](./images/php_apache2.png)
 
-- Container: The container name is simply a name for our PHP container that we choose at random. 
-  For example, php-apache is a container name.
-
-- PHP image: which is the version of PHP Apache we wish to use. We are using the Docker hub to get image: php:8.0-apache in this example.
-
-- Volume: will create a working src directory for our code or source files in our current working directory. That file would have to be in that directory if we want to run a PHP script.
-
-Such As:volumes:- ./php/src:/var/www/html/
-
-- Ports:  Port numbers are important. This specifies the ports from which the script will run. It will map the port on your local computer to an Apache server port.
-
-Consider the following scenario:ports: - 8000:80
-
-This is how  docker-compose.yml should look like.Let’s test it out.
-
-![apache](./images/apache.png)
 
 Now, If we open Doceker desktop, The container should be up and runnig.
 
 ![myphp](./images/myphp.png)
 
+Here our simple php code and output:
 
-### 6. Deploy MySQL on docker:
+![php_code](./images/php_code.png)
+
+![output](./images/php_output.png)
+
+
+### 5. Deploy MySQL on docker:
 
  In order to run MySQL on docker we need to make sure that the Docker is running on your desktop.
  After that we can proceed to obtain a MySQL docker image by typing the following: 
@@ -134,23 +137,15 @@ docker ps -a
  
  
  
-### 7. Obtaing and Running phpMyAdmin on docker:
+### 6. Obtaing and Running phpMyAdmin on docker:
 
-### 8. Access phpMyAdmin:
+### 7. Access phpMyAdmin:
 
 You only need to open your favourite browser and type the following url: http://localhost:8081/ so your instance of phpMyAdmin will show up. To access, type root as username and the password you established in the step one when running the mysql container (if you followed the tutorial the password is ikhtiar).
 
 ![Access](./images/Access.png)
 
 After that you have to put your password.
-
-![Access](./images/Login.png)
-
-After you log in, this is your phpmyadmin page. 
-
-![Access](./images/Page.png)
-
-Now everything is done perfectly.
 
 
 
