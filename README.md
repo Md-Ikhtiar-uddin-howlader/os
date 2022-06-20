@@ -114,7 +114,7 @@ docker pull mysql:8.0.1
 
 ### 8. Access phpMyAdmin:
 
-
+We only need to open our  browser and type the following url: http://localhost:8081/  . So our instance of phpMyAdmin will show up. To access, type root as username and the password we established in the step one when running the mysql container (if we followed the tutorial the password is ikhtiar -d).
 
 
 
