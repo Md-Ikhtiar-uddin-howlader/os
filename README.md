@@ -139,7 +139,10 @@ docker ps -a
 ### 8. Access phpMyAdmin:
 
 You only need to open your favourite browser and type the following url: http://localhost:8081/ so your instance of phpMyAdmin will show up. To access, type root as username and the password you established in the step one when running the mysql container (if you followed the tutorial the password is ikhtiar -d).
+
 ![Access](./images/Access.png)
+
+After that you have to put your password.
 
 
 
