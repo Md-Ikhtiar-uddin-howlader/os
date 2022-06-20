@@ -44,3 +44,21 @@ Docker is basically a software development platform and a sort of virtualization
 Unlike a virtual machine, Docker is a sort of virtualization in which resources are shared directly with the host. This allows us to construct containers and operate several Docker containers in situations where we would only be able to host a few virtual machines. A virtual machine must set aside a particular amount of resources, such as HDD space, memory, and processing power, mimic hardware, and boot a whole operating system before connecting with the host computer through a tarator programme called a "Hypervisor" that runs on the host operating system. Docker links directly to the system kernel on Linux systems, as well as Windows 10 and Windows Server 2016 and later. This implies that any version of Linux may be run natively in a container. Not only that, but Docker uses less disc space since it uses a tiered file system to effectively reuse data.
 
 ### 3. Required Installation steps and procedures:
+
+1. First go to [https://hub.docker.com/](https://hub.docker.com/)
+2. Register or Sign in.
+3. Download Docker Desktop Installer file for your operating system.
+4. Enable Virtualization Hyper-V.
+5. Install Docker Destop.
+6. Run the Docker Destop application.
+7. Check the Docker is properly installed or not on Command Prompt for Windows and Terminal for MacOS
+
+**Command:** 
+```
+docker --version
+```
+
+![Docker_Version](./images/docker_version.png)
+
+
+**This indicates that the Docker installed successfully.**
