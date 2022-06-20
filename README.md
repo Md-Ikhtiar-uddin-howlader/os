@@ -104,9 +104,33 @@ Now, If we open Docekr desktop, The container should be up and runnig.
  
 ```
 docker pull mysql:8.0.1
-
 ```
 
+The previous command will download the version 8.0.1 of mysql within an image available in the Docker store.
+So now we can run it into our local machine by:
+
+```
+docker run --name some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=ikhtiar -d mysql
+```
+ 
+Let's explain the options for the command docker run.  
+- The option --name allows us to assign a specific name for our running container.    
+
+- The option -e is used to pass a value to the container environment variable MYSQL_ROOT_PASSWORD. This variable is requested by the image to run properly and it will be assigned to the root password of MySQL. 
+
+- The option -d means that docker will run the container in the background in “detached” mode. 
+
+If everything went well we could see the running container by typing the following command:
+
+```
+docker ps -a
+```
+
+![dockerpsa](./images/dockerpsa.png)
+ 
+ Finally, we can check the access to the mysql instance using docker exec command,
+ 
+ ![data](./images/data.png)
  
  
  
@@ -114,7 +138,7 @@ docker pull mysql:8.0.1
 
 ### 8. Access phpMyAdmin:
 
-We only need to open our  browser and type the following url: http://localhost:8081/  . So our instance of phpMyAdmin will show up. To access, type root as username and the password we established in the step one when running the mysql container (if we followed the tutorial the password is ikhtiar -d).
+
 
 
 
