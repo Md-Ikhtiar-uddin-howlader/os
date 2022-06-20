@@ -92,7 +92,7 @@ This is how  docker-compose.yml should look like.Let’s test it out.
 
 ![apache](./images/apache.png)
 
-Now, If we open Docekr desktop, The container should be up and runnig.
+Now, If we open Doceker desktop, The container should be up and runnig.
 
 ![myphp](./images/myphp.png)
 
